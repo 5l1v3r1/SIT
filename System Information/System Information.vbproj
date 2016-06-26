@@ -1,0 +1,510 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="14.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D21BFE21-20EB-48B8-BA66-9B7F639DFF95}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>SystemInformation.My.MyApplication</StartupObject>
+    <RootNamespace>SystemInformation</RootNamespace>
+    <AssemblyName>System Information Toolkit</AssemblyName>
+    <OptionStrict>On</OptionStrict>
+    <ApplicationIcon>Resources\System Information.ico</ApplicationIcon>
+    <SignAssembly>false</SignAssembly>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <MyType>WindowsForms</MyType>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <IncrementalBuild>true</IncrementalBuild>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <DocumentationFile>System Information Toolkit.xml</DocumentationFile>
+    <NoWarn>42353,42354,42355</NoWarn>
+    <WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
+    <CodeAnalysisRules>-Microsoft.Design#CA1062;-Microsoft.Globalization#CA1303;-Microsoft.Performance#CA1817;-Microsoft.Performance#CA1818;-Microsoft.Design#CA1031;-Microsoft.Design#CA1060;-Microsoft.Design#CA1056;-Microsoft.Design#CA1024;-Microsoft.Globalization#CA1301;-Microsoft.Globalization#CA1302;-Microsoft.Globalization#CA1308;-Microsoft.Globalization#CA1306;-Microsoft.Globalization#CA1304;-Microsoft.Globalization#CA1305;-Microsoft.Globalization#CA2101;-Microsoft.Globalization#CA1300;-Microsoft.Globalization#CA1307;-Microsoft.Globalization#CA1309;-Microsoft.Maintainability#CA1502;-Microsoft.Performance#CA1811;-Microsoft.Performance#CA1823;-Microsoft.Performance#CA1800;-Microsoft.Security#CA2122</CodeAnalysisRules>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>false</DebugSymbols>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <IncrementalBuild>false</IncrementalBuild>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <DocumentationFile>System Information Toolkit.xml</DocumentationFile>
+    <NoWarn>42353,42354,42355</NoWarn>
+    <WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <CodeAnalysisRules>-Microsoft.Globalization#CA1303;-Microsoft.Performance#CA1818;-Microsoft.Design#CA1031;-Microsoft.Design#CA1056;-Microsoft.Globalization#CA1301;-Microsoft.Globalization#CA1302;-Microsoft.Globalization#CA1308;-Microsoft.Globalization#CA1306;-Microsoft.Globalization#CA1304;-Microsoft.Globalization#CA1305;-Microsoft.Globalization#CA2101;-Microsoft.Globalization#CA1300;-Microsoft.Globalization#CA1307;-Microsoft.Globalization#CA1309;-Microsoft.Maintainability#CA1502;-Microsoft.Naming#CA1704;-Microsoft.Performance#CA1823;-Microsoft.Security#CA2122</CodeAnalysisRules>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>_MyType="WindowsForms"</DefineConstants>
+    <DocumentationFile>System Information Toolkit.xml</DocumentationFile>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
+    <CodeAnalysisRules>-Microsoft.Design#CA1062;-Microsoft.Globalization#CA1303;-Microsoft.Performance#CA1817;-Microsoft.Performance#CA1818;-Microsoft.Design#CA1031;-Microsoft.Design#CA1060;-Microsoft.Design#CA1056;-Microsoft.Design#CA1024;-Microsoft.Globalization#CA1301;-Microsoft.Globalization#CA1302;-Microsoft.Globalization#CA1308;-Microsoft.Globalization#CA1306;-Microsoft.Globalization#CA1304;-Microsoft.Globalization#CA1305;-Microsoft.Globalization#CA2101;-Microsoft.Globalization#CA1300;-Microsoft.Globalization#CA1307;-Microsoft.Globalization#CA1309;-Microsoft.Maintainability#CA1502;-Microsoft.Performance#CA1811;-Microsoft.Performance#CA1823;-Microsoft.Performance#CA1800;-Microsoft.Security#CA2122</CodeAnalysisRules>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.vb</CodeAnalysisModuleSuppressionsFile>
+    <NoWarn>42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>_MyType="WindowsForms"</DefineConstants>
+    <RemoveIntegerChecks>true</RemoveIntegerChecks>
+    <DocumentationFile>System Information Toolkit.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <PlatformTarget>x86</PlatformTarget>
+    <WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
+    <CodeAnalysisRules>-Microsoft.Globalization#CA1303;-Microsoft.Performance#CA1818;-Microsoft.Design#CA1031;-Microsoft.Design#CA1056;-Microsoft.Globalization#CA1301;-Microsoft.Globalization#CA1302;-Microsoft.Globalization#CA1308;-Microsoft.Globalization#CA1306;-Microsoft.Globalization#CA1304;-Microsoft.Globalization#CA1305;-Microsoft.Globalization#CA2101;-Microsoft.Globalization#CA1300;-Microsoft.Globalization#CA1307;-Microsoft.Globalization#CA1309;-Microsoft.Maintainability#CA1502;-Microsoft.Performance#CA1823;-Microsoft.Security#CA2122</CodeAnalysisRules>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.vb</CodeAnalysisModuleSuppressionsFile>
+    <NoWarn>42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.XML" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CLS\HolidayCalculator.vb" />
+    <Compile Include="CLS\ListViewItemComparer.vb" />
+    <Compile Include="PNL\Bios.Designer.vb">
+      <DependentUpon>Bios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PNL\Computer.Designer.vb">
+      <DependentUpon>Computer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PNL\EnvironmentVariables.Designer.vb">
+      <DependentUpon>EnvironmentVariables.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PNL\EnvironmentVariables.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PNL\Processes.Designer.vb">
+      <DependentUpon>Processes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PNL\Processes.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PNL\OEMInformation.Designer.vb">
+      <DependentUpon>OEMInformation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PNL\OEMInformation.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PNL\InstalledPrograms.Designer.vb">
+      <DependentUpon>InstalledPrograms.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PNL\InstalledPrograms.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PNL\Cpu.Designer.vb">
+      <DependentUpon>Cpu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PNL\DateAndTime.Designer.vb">
+      <DependentUpon>DateAndTime.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PNL\Drives.Designer.vb">
+      <DependentUpon>Drives.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PNL\Introduction.Designer.vb">
+      <DependentUpon>Introduction.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PNL\Network.Designer.vb">
+      <DependentUpon>Network.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PNL\OperatingSystem.Designer.vb">
+      <DependentUpon>OperatingSystem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PNL\Services.Designer.vb">
+      <DependentUpon>Services.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PNL\Services.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PNL\Sound.Designer.vb">
+      <DependentUpon>Sound.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PNL\SpecialFolders.Designer.vb">
+      <DependentUpon>SpecialFolders.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PNL\StartupPrograms.Designer.vb">
+      <DependentUpon>StartupPrograms.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PNL\StartupPrograms.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PNL\DateAndTime.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CLS\InformationClass.vb" />
+    <Compile Include="CLS\NativeMethods.vb" />
+    <Compile Include="PNL\UserInformation.Designer.vb">
+      <DependentUpon>UserInformation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PNL\UserInformation.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PNL\Video.Designer.vb">
+      <DependentUpon>Video.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PNL\VisualStyles.Designer.vb">
+      <DependentUpon>VisualStyles.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CLS\ShortcutClass.vb" />
+    <Compile Include="FRM\WaitForm.Designer.vb">
+      <DependentUpon>WaitForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FRM\WaitForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PNL\VisualStyles.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PNL\SpecialFolders.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PNL\Introduction.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PNL\Video.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PNL\Sound.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PNL\Network.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PNL\Drives.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PNL\Computer.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PNL\Bios.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PNL\Cpu.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PNL\OperatingSystem.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FRM\MainForm.Designer.vb">
+      <DependentUpon>MainForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FRM\MainForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="PNL\TaskPanelBase.Designer.vb">
+      <DependentUpon>TaskPanelBase.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PNL\TaskPanelBase.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="PNL\EnvironmentVariables.resx">
+      <DependentUpon>EnvironmentVariables.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PNL\Processes.resx">
+      <DependentUpon>Processes.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PNL\OEMInformation.resx">
+      <DependentUpon>OEMInformation.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PNL\InstalledPrograms.resx">
+      <DependentUpon>InstalledPrograms.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PNL\Services.resx">
+      <DependentUpon>Services.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PNL\StartupPrograms.resx">
+      <DependentUpon>StartupPrograms.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PNL\DateAndTime.resx">
+      <DependentUpon>DateAndTime.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PNL\UserInformation.resx">
+      <DependentUpon>UserInformation.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM\WaitForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>WaitForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PNL\VisualStyles.resx">
+      <DependentUpon>VisualStyles.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PNL\SpecialFolders.resx">
+      <DependentUpon>SpecialFolders.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PNL\Introduction.resx">
+      <DependentUpon>Introduction.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PNL\Video.resx">
+      <DependentUpon>Video.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PNL\Sound.resx">
+      <DependentUpon>Sound.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PNL\Network.resx">
+      <DependentUpon>Network.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PNL\Drives.resx">
+      <DependentUpon>Drives.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PNL\Computer.resx">
+      <DependentUpon>Computer.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PNL\Bios.resx">
+      <DependentUpon>Bios.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PNL\Cpu.resx">
+      <DependentUpon>Cpu.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PNL\OperatingSystem.resx">
+      <DependentUpon>OperatingSystem.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM\MainForm.resx">
+      <DependentUpon>MainForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources1.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PNL\TaskPanelBase.resx">
+      <DependentUpon>TaskPanelBase.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="My Project\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Background_Off_White.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BIOS_48x48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Computer_48x48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CPU_48x48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Drive_48x48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Network_48x48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sound_48x48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Video_48x48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Windows_48x48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Windows_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BIOS_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Computer_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CPU_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Drive_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Network_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sound_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Video_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Virtual Software with Logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SpecialFolder_48x48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SpecialFolder_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\app.manifest" />
+    <None Include="Resources\EULA.pdf" />
+    <None Include="Resources\EULA.rtf" />
+    <None Include="Resources\segoeui.ttf" />
+    <None Include="Resources\segoeuib.ttf" />
+    <None Include="Resources\VisualStyles_48x48.png" />
+    <None Include="Resources\VisualStyles_16x16.png" />
+    <None Include="Resources\Date-Time_16x16.png" />
+    <None Include="Resources\Date-Time_48x48.png" />
+    <None Include="Resources\Windows XP_48x48.png" />
+    <None Include="Resources\aurora_header.png" />
+    <None Include="Resources\Windows2000_48x48.png" />
+    <None Include="Resources\Windows Vista_48x48.png" />
+    <None Include="Resources\System Information_16x16.png" />
+    <None Include="Resources\System Information_48x48.png" />
+    <None Include="Resources\Windows2000_16x16.png" />
+    <None Include="Resources\Windows Vista_16x16.png" />
+    <None Include="Resources\Windows XP_16x16.png" />
+    <Content Include="Resources\Blank.png" />
+    <Content Include="Resources\CDROM_16x16.png" />
+    <None Include="Resources\CMD_16x16.png" />
+    <None Include="Resources\CMD_48x48.png" />
+    <Content Include="Resources\Floppy_16x16.png" />
+    <None Include="Resources\Installed Programs_48x48.png" />
+    <None Include="Resources\Installed Programs_16x16.png" />
+    <Content Include="Resources\NetworkDrive_16x16.png" />
+    <None Include="Resources\Unknown_16x16.png" />
+    <None Include="Resources\Services_48x48.png" />
+    <None Include="Resources\Services_16x16.png" />
+    <None Include="Resources\OEM_16x 16.png" />
+    <None Include="Resources\OEM_48x48.png" />
+    <None Include="Resources\Processes_16x16.png" />
+    <None Include="Resources\Processes_48x48.png" />
+    <Content Include="Resources\Startup_16x16.png" />
+    <Content Include="Resources\Startup_48x48.png" />
+    <Content Include="Resources\System Information.ico" />
+    <None Include="Resources\UsbDrive_16x16.png" />
+    <Content Include="Resources\UserDisabled_16x16.png" />
+    <Content Include="Resources\Users_16x16.png" />
+    <Content Include="Resources\Users_48x48.png" />
+    <Content Include="Resources\User_16x16.png" />
+    <Content Include="System Information.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.Targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+</Project>
